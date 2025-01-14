@@ -1,0 +1,33 @@
+body {
+  background-color: aquamarine;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#seccion-cursos {
+  background-color: blue;
+}
+
+.enVerde {
+  background-color: green;
+}
+
+.letraBlanca {
+  color: white;
+}
+
+.cursosTable td {
+  background-color: brown;
+}
+
+.language img {
+  width: 15%;
+  max-width: 100px;
+}

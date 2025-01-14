@@ -5,6 +5,7 @@
     <meta name="description" content="CV personal" />
     <meta name="keywords" content="cv, personal, academica" />
     <title>CV - Agustina Aliciardi</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css" />
   </head>
   <body>
     <header>
@@ -12,14 +13,22 @@
       <h1>Agustina Aliciardi</h1>
       <h2>SDET</h2>
     </header>
-    <nav></nav>
+    <nav>
+      <div class="language">
+        <a href="english.html"><img src="images/usa.png" /></a>
+        <a href="index.html"><img src="images/arg.png" /></a>
+      </div>
+      <div>
+        <a href="#seccion-contacto">Contacto</a>
+      </div>
+    </nav>
     <main>
-      <section>
+      <section class="enVerde">
         <h3>Perfil</h3>
         <p>Ingeniera <strong>QA SSr</strong> con casi...</p>
         <p>Experiencia en <em>Cypress</em> y <u>Selenium</u>.</p>
       </section>
-      <section>
+      <section class="enVerde">
         <h3>Habilidades</h3>
         <ul>
           <li>Jira</li>
@@ -27,16 +36,38 @@
           <li>Cypress</li>
         </ul>
       </section>
-      <section>
+      <section id="experiencia-laboral">
         <h3>Experiencia Laboral</h3>
       </section>
-      <section>
+      <section id="seccion-academica">
         <h3>Formación Académica</h3>
       </section>
-      <section>
+      <section id="seccion-cursos">
         <h3>Cursos</h3>
+        <!-- ESTA SECCION TIENE UNA TABLA-->
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre del Curso</th>
+              <th>Plataforma</th>
+              <th>Carga Horaria</th>
+            </tr>
+          </thead>
+          <tbody class="cursosTable">
+            <tr>
+              <td>Cypress</td>
+              <td>TAU</td>
+              <td>2hs</td>
+            </tr>
+            <tr>
+              <td>Playwright</td>
+              <td>Udemy</td>
+              <td>13hs</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
-      <section>
+      <section id="seccion-contacto" class="enVerde letraBlanca">
         <h3>Contacto</h3>
       </section>
     </main>
