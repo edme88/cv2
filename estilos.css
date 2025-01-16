@@ -1,5 +1,10 @@
 body {
   background-color: aquamarine;
+  background: linear-gradient(to right, rgb(0, 132, 255), lightblue);
+  /*para agregar imagenes de */
+  background-image: url("images/fondo.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 * {
@@ -7,27 +12,27 @@ body {
   text-align: center;
 }
 
-h3 {
-  font-family: "Times New Roman", Times, serif;
-}
-
-#seccion-cursos {
-  background-color: blue;
-}
-
-.enVerde {
-  background-color: green;
-}
-
-.letraBlanca {
-  color: white;
-}
-
-.cursosTable td {
-  background-color: brown;
-}
-
 .language img {
   width: 15%;
+  max-width: 100px;
+}
+
+.language a:hover img {
+  width: 20%;
+}
+
+a:hover {
+  font-size: 40px;
+}
+
+section {
+  border: 2px solid #0c9bd4;
+  margin: 25px auto;
+  background-color: rgba(255, 255, 255, 0.703);
+  width: 60%;
+}
+
+#img-perfil {
+  width: 25%;
   max-width: 100px;
 }
