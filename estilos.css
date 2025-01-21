@@ -21,10 +21,6 @@ body {
   width: 20%;
 }
 
-a:hover {
-  font-size: 40px;
-}
-
 section {
   border: 2px solid #0c9bd4;
   margin: 25px auto;
